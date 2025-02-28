@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio João Pedro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+     <!--==================== CABECALHO ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+           <a href="#" class="nav__logo">João Pedro</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Página inicial</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#presentation__about" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Sobre mim</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#presentation__habilidades" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Habilidades</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#presentation__projetos" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Projetos e experiências</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#presentation__contato" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Contatos</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Botão de fechar -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-large-line"></i>
+                    </div>
+                </div>
+
+           <!-- Botão interativo -->
+           <div class="nav__toggle" id="nav-toggle">
+              <i class="ri-menu-line"></i>
+           </div>
+        </nav>
+     </header>
+   
+     <!--==================== PÁGINA INICIAL ====================-->
+    <main class = "presentation__principal">
+        <section class = " presentation__content">
+            <h1 class="presentation__content__title">Olá, meu nome é <strong>João Pedro!</strong></h1>
+            <p>Tenho 19 anos, sou um estudante apaixonado pelo que faço e atualmente estou no 4º período do curso de Bacharelado em Sistemas de Inoformação na Universidade Federal de Uberlândia. Este espaço é uma maneira de compartilhar um pouco mais sobre minha trajetória acadêmica, experiências e alguns detalhes sobre minha personalidade.</p>
+        </section>
+        <section class ="presentation__imagem">
+            <img src="imgs/pexels-harold-vasquez-853421-2653362.jpg" alt="Foto código" class = "imagem__principal">
+        </section>
+    </main>
+
+     <!--==================== SOBRE MIM ====================-->
+    <section id = "presentation__about">
+            <h2 class = "presentation__about__title">
+                <strong>#</strong>Sobre mim
+            </h2>
+           <div class = "presentation__about">
+            <div class = "presentation__about__text">
+                <p>
+                    O primeiro contato que tive com um computador foi quando eu ainda era uma criança, então desde cedo tenho interesse em tecnologia. Nesse sentido, iniciei minha jornada acadêmica no segundo semestre de 2023 e, desde então, venho me dedicando ao aprendizado e ao desenvolvimento de habilidades em tecnologia da informação. <br> <br>
+                    Além da faculdade, fiz alguns cursos de HTML, CSS e Javascript, onde tive meu primeiro contato com front-end e me interessei. Meu objetivo é seguir evoluindo e contribuir positivamente na área. <br> <br> Ao longo da minha jornada acadêmica, conheci e me inspirei em vários profissionais da área. Gosto muito das matérias de Banco de dados e Programação Orientada a Objetos.
+                </p> 
+            </div>
+            <img src="imgs/fotoperfil.jpg" alt="Foto de perfil" class = "presentation__about__imagem">
+        </div>
+    </section>
+   
+     <!--==================== HABILIDADES ====================-->
+    <section id = "presentation__habilidades">
+        <h2 class = "presentation__habilidades__title">
+            <strong>#</strong>Habilidades
+        </h2>
+        <h3 class = "presentation__habilidades__title">Linguagens de programação</h3>
+
+        <!-- Aba de skills -->
+    <section class="languages">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <ul class="carousel" id="carousel">
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-logo-java-coffee-cup-480.png" alt="" draggable="false"></div>
+                        <h2>Java</h2>
+                        <span>Intermediário</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-c-280.png" alt="" draggable="false"></div>
+                        <h2>C</h2>
+                        <span>Intermediário</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-c++-480.png" alt="" draggable="false"></div>
+                        <h2>C++</h2>
+                        <span>Básico</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-python-280.png" alt="" draggable="false"></div>
+                        <h2>Python</h2>
+                        <span>Básico</span>
+                    </div>
+                </li>
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+    </section>
+
+    <!-- Aba de Tecnologias -->
+    <section class="technologies">
+        <h3 class="presentation__habilidades__title">Tecnologias</h3>
+        <div class="wrapper">
+            <i id="left2" class="fa-solid fa-angle-left"></i>
+            <ul class="carousel" id="carousel2">
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-html5-240.png" alt="" draggable="false"></div>
+                        <h2>HTML5</h2>
+                        <span>Intermediário</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-css-480.png" alt="" draggable="false"></div>
+                        <h2>CSS3</h2>
+                        <span>Intermediário</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__text">
+                        <div class="img"><img src="imgs/icons8-javascript-480.png" alt="" draggable="false"></div>
+                        <h2>Javascript</h2>
+                        <span>Básico</span>
+                    </div>
+                </li>
+            </ul>
+            <i id="right2" class="fa-solid fa-angle-right"></i>
+        </div>
+    </section>
+</section>
+
+    <!--============ PROJETOS ===============-->
+    <section id = "presentation__projects">
+        <h2 class = "presentation__projects__title">
+            <strong>#</strong>Experiência e projetos
+        </h2>
+        
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Meu primeiro Portfólio responsivo</h3>
+                    <iframe src="./SegundoRep/" frameborder="0"></iframe>
+                    <div class="project-buttons">
+                        <a href="https://github.com/jpedroo0/Portfolio-Html-e-Css-2" target="_blank" class="repo-btn">
+                            Visitar repositório
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Réplica de página de streaming</h3>
+                    <iframe src="./PrimeiroRep/" frameborder="0"></iframe>
+                    <div class="project-buttons">
+                        <a href="https://github.com/jpedroo0/Portifolio-Html-e-Css-3" target="_blank" class="repo-btn">
+                            Visitar repositório
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+    </section>
+
+    <!--==================== CONTATO ====================-->
+    <section id = "presentation__contato">
+        <h2 class = "presentation__contato__title">
+            <strong>#</strong>Contato
+        </h2>
+
+        <p class="contato__text">Fale comigo!</p>
+
+        <div class="socials__container">
+            <a data__social="Instagram" style="--cor-destaque: #FF0069;" href="https://www.instagram.com/jaopedr0_/"><img src="imgs/icons8-instagram (2).svg" alt="Ícone do Instagram"></a>
+
+            <a data__social="Github" style="--cor-destaque: #181717;" href="https://github.com/jpedroo0"><img src="imgs/icons8-github.svg" alt="Ícone do Github"></a>
+
+            <a data__social="Linkedin" style="--cor-destaque: #0e76a8;" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-inoc%C3%AAncio-campos-9b446b298/"><img src="imgs/icons8-linkedin.svg" alt="Ícone do Linkedin"></a>
+
+            <a data__social="Email" style="--cor-destaque: #ABB2BF;" href="mailto:inocencio.joaopedro.c2@gmail.com"><img src="imgs/email-black-envelope-shape.png" alt="Ícone do Email"></a>
+
+            <a data__social="Facebook" style="--cor-destaque: #0e76a8;" href="https://www.facebook.com/profile.php?id=61573556647946"><img src="imgs/icons8-facebook-novo.svg" alt="Ícone do Facebook"></a>
+        </div>
+    </section>
+
+    <!--==================== RODAPÉ ====================-->
+    <footer class = "footer">
+        <div class = "footer__info">
+           <a href="mailto:inocencio.joaopedro.c2@gmail.com" class="email__footer">inocencio.joaopedro.c2@gmail.com</a> 
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <p>© Copyright 2025. Made by João Pedro </p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

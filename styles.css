@@ -734,7 +734,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .socials__container a {
@@ -1045,10 +1045,13 @@ socials__icons{
   align-items: center;
 }
 
+.socials__container {
+  gap:1.5rem;
+}
+
 .socials__container a {
   height: 3.8rem;
   width: 3.8rem;
-  
 }
 
   }

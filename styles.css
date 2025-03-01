@@ -13,7 +13,7 @@
     --cor2: #000000;
     --cor3: rgb(65, 152, 222)  ;
     --cor4: #ABB2BF;
-    --cor5: #5d5d5d;
+    --cor5: #7f7f7f;
     --fonte1: "Fira Code", monospace;
     --tamanhoheader: 3.5rem;
     --tamanhofontenormal: .938rem;
@@ -438,10 +438,10 @@ a {
 }
 
 .wrapper i {
-  color: var(--cor1);
+  color: var(--cor2);
   height: 50px;
   width: 50px;
-  background: var(--cor5);
+  background: var(--cor1);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -903,6 +903,37 @@ a {
 
 /*telas médias*/
 @media (max-width: 768px) {
+  html {
+    font-size: 85%;
+}
+
+.presentation__principal {
+  flex-direction: column;
+  text-align: center;
+  gap: 0;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#presentation__about {
+flex-direction: column;
+  text-align: center;
+  gap: 0;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#presentation__habilidades {
+flex-direction: column;
+text-align: center;
+gap: 0;
+padding-bottom: 4rem;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
   nav {
       padding: 2rem;
   }
@@ -953,6 +984,7 @@ a {
   .presentation__principal {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     gap: 0;
     padding-bottom: 4rem;
     padding-left: 3rem;
@@ -960,8 +992,9 @@ a {
 }
 
 #presentation__about {
-  flex-direction: column;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
     gap: 0;
     padding-bottom: 4rem;
     padding-left: 3rem;
@@ -1004,6 +1037,20 @@ a {
     text-align: center;
     gap: 4rem;
 }
+
+socials__icons{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials__container a {
+  height: 3.8rem;
+  width: 3.8rem;
+  
+}
+
   }
 
 /*responsividade slider*/

@@ -976,6 +976,10 @@ padding-right: 5rem;
     .wrapper2 i {
     background-color: rgb(144, 144, 144);
     }
+
+    .project-card {
+      background-color: rgb(144, 144, 144);
+  }
    
   .footer__info {
     flex-direction: column;
@@ -998,8 +1002,7 @@ socials__icons{
 .socials__container a {
   height: 3.8rem;
   width: 3.8rem;
-}
-
+}  
   }
 
 /*responsividade slider*/

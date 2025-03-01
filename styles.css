@@ -1019,11 +1019,7 @@ socials__icons{
 }
 
 /*responsividade cabecalho*/
-@media screen and (min-width: 1150px) {
-  :root {
-    --tamanhofontenormal: 1rem;
-  }
-}
+
 
 @media screen and (max-width: 1150px) {
   .nav__menu {
@@ -1056,6 +1052,10 @@ socials__icons{
 /*=============== BREAKPOINTS ===============*/
 /* Dispositivos grandes */
 @media screen and (min-width: 1150px) {
+  :root {
+    --tamanhofontenormal: 1rem;
+  }
+
   .container {
     margin-inline: auto;
   }

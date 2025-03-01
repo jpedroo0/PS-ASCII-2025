@@ -2,4 +2,5 @@
 Portfólio e botão interativo feito como avaliação para o processo seletivo da empresa júnior ASCII
 
 link do deploy do site:
-https://joaopedroportfolioascii.netlify.app/
+https://portfoliojoaopedroatt.netlify.app/
+

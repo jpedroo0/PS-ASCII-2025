@@ -11,8 +11,9 @@
 :root {
     --cor1: #F6F6F6;
     --cor2: #000000;
-    --cor3: #c470db;
+    --cor3: rgb(65, 152, 222)  ;
     --cor4: #ABB2BF;
+    --cor5: #363636;
     --fonte1: "Fira Code", monospace;
     --tamanhoheader: 3.5rem;
     --tamanhofontenormal: .938rem;
@@ -412,10 +413,6 @@ a {
   border-radius: 50%;
 }
 
-.card .img img:hover {
-  transition: .2s;
-  transform: scale(1.2);
-}
 
 .card h2 {
   font-weight: 500;
@@ -444,7 +441,7 @@ a {
   color: var(--cor1);
   height: 50px;
   width: 50px;
-  background: rgb(27, 27, 27);
+  background: var(--cor5);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -500,7 +497,7 @@ a {
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
-  background-color: rgb(27, 27, 27);
+  background-color: var(--cor5);
   border-radius: 8px;
   padding-bottom: 15px;
   display: flex;
@@ -524,10 +521,6 @@ a {
   border-radius: 50%;
 }
 
-.card2 .img2 img:hover {
-  transition: .2s;
-  transform: scale(1.2);
-}
 
 .card2 h2 {
   font-weight: 500;
@@ -556,7 +549,7 @@ a {
   color: var(--cor1);
   height: 50px;
   width: 50px;
-  background: rgb(27, 27, 27);
+  background: var(--cor5);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -612,7 +605,7 @@ a {
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
-  background-color: rgb(27, 27, 27);
+  background-color: var(--cor5);
   border-radius: 8px;
   padding-bottom: 15px;
   display: flex;
@@ -658,7 +651,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 5rem;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 .project-card {
@@ -668,7 +661,7 @@ a {
   justify-content: center;
   width: 47vw;
   height: 63vh;
-  background-color: rgb(27, 27, 27);
+  background-color: var(--cor5);
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -835,6 +828,37 @@ a {
 
 
 /*telas grandes*/
+@media (min-width: 2300px){
+
+  .presentation__principal .main .body{
+    padding: 3rem 10rem;
+    font-family: var(--fonte1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 120rem;
+}
+
+  #presentation__habilidades {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 4rem 10rem;
+}
+
+.presentation__about {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  margin: 0;
+}
+}
+
 @media (max-width: 1024px) {
   .presentation__principal {
       flex-direction: column;
@@ -923,7 +947,7 @@ a {
 /*telas pequenas (celular)*/
 @media (max-width: 480px) {
   html {
-      font-size: 55%;
+      font-size: 85%;
   }
 
   .skill-card {

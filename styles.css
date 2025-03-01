@@ -13,7 +13,7 @@
     --cor2: #000000;
     --cor3: rgb(65, 152, 222)  ;
     --cor4: #ABB2BF;
-    --cor5: #7f7f7f;
+    --cor5: #1b1b1b;
     --fonte1: "Fira Code", monospace;
     --tamanhoheader: 3.5rem;
     --tamanhofontenormal: .938rem;
@@ -104,27 +104,6 @@ a {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
-@media screen and (min-width: 1150px) {
-  :root {
-    --tamanhofontenormal: 1rem;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  .nav__menu {
-    position: fixed;
-    left: -100%;
-    top: 0;
-    background-color: var(--cor2);
-    width: 100%;
-    height: 100%;
-    padding: 6rem 3.5rem 4.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: left .4s;
-  }
 
   .nav__item {
     transform: translateX(-150px);
@@ -243,41 +222,6 @@ a {
   transform: translateX(0);
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* Dispositivos grandes */
-@media screen and (min-width: 1150px) {
-  .container {
-    margin-inline: auto;
-  }
-
-  .nav {
-    height: calc(var(--tamanhoheader) + 2rem);
-  }
-
-  .nav__toggle, 
-  .nav__close {
-    display: none;
-  }
-
-  .nav__link {
-    font-size: var(--tamanhofontenormal);
-  }
-
-  .nav__link i {
-    font-size: 1.5rem;
-  }
-
-  .nav__list {
-    flex-direction: row;
-    column-gap: 3.5rem;
-  }
-
-  .nav__menu {
-    display: flex;
-    align-items: center;
-    column-gap: 3.5rem;
-  }
-}
 
 /*=============== CABECALHO ===============*/
 .cabecalho {
@@ -438,10 +382,10 @@ a {
 }
 
 .wrapper i {
-  color: var(--cor2);
+  color: var(--cor1);
   height: 50px;
   width: 50px;
-  background: var(--cor1);
+  background: var(--cor5);
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -613,20 +557,6 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-
-/*responsividade slider 2*/
-@media screen and (max-width: 900px) {
-  .wrapper2 .carousel2 {
-    grid-auto-columns: calc((100% / 2) - 9px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .wrapper2 .carousel2 {
-    grid-auto-columns: 100%;
-  }
 }
 
 /*=============== PROJETOS ===============*/
@@ -1031,6 +961,12 @@ padding-right: 5rem;
     height: 40%;
   }
 
+  .carousel .card {
+    background-color: rgb(144, 144, 144);
+  }
+  .carousel2 .card2 {
+    background-color: rgb(144, 144, 144);
+  }
   .footer__info {
     flex-direction: column;
     align-items: center;
@@ -1066,5 +1002,76 @@ socials__icons{
 @media screen and (max-width: 600px) {
   .wrapper .carousel {
     grid-auto-columns: 100%;
+  }
+}
+
+/*responsividade cabecalho*/
+@media screen and (min-width: 1150px) {
+  :root {
+    --tamanhofontenormal: 1rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: var(--cor2);
+    width: 100%;
+    height: 100%;
+    padding: 6rem 3.5rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: left .4s;
+  }
+
+  /*responsividade slider 2*/
+@media screen and (max-width: 900px) {
+  .wrapper2 .carousel2 {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper2 .carousel2 {
+    grid-auto-columns: 100%;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* Dispositivos grandes */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+  .nav {
+    height: calc(var(--tamanhoheader) + 2rem);
+  }
+
+  .nav__toggle, 
+  .nav__close {
+    display: none;
+  }
+
+  .nav__link {
+    font-size: var(--tamanhofontenormal);
+  }
+
+  .nav__link i {
+    font-size: 1.5rem;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 3.5rem;
+  }
+
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 3.5rem;
   }
 }

@@ -13,7 +13,7 @@
     --cor2: #000000;
     --cor3: rgb(65, 152, 222)  ;
     --cor4: #ABB2BF;
-    --cor5: #363636;
+    --cor5: #5d5d5d;
     --fonte1: "Fira Code", monospace;
     --tamanhoheader: 3.5rem;
     --tamanhofontenormal: .938rem;
@@ -949,6 +949,33 @@ a {
   html {
       font-size: 85%;
   }
+
+  .presentation__principal {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#presentation__about {
+  flex-direction: column;
+    text-align: center;
+    gap: 0;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#presentation__habilidades {
+  flex-direction: column;
+  text-align: center;
+  gap: 0;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 
   .skill-card {
       width: 100%;

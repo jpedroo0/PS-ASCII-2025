@@ -864,11 +864,11 @@ padding-left: 5rem;
 padding-right: 5rem;
 }
 
-  nav {
+  .nav {
       padding: 2rem;
   }
 
-  nav h1 {
+  .nav h1 {
       margin-left: 0;
   }
 
